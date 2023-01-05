@@ -39,12 +39,4 @@ int main() {
     for (int i=0; i<ans.size(); i++) {
         cout << ans[i] << " ";
     }
-    for (long i=0; i<53316291173; i++) {
-        vector<int> a;
-        vector<int> b = fib(i);
-        zeckendorf(i, b, a);
-        if (a.size() == 3) {
-            cout << "a" << endl;
-        }
-    }
 }
